@@ -6,7 +6,7 @@
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/10 19:26:07 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/13 22:24:01 by etomiyos         ###   ########.fr       */
+/*   Updated: 2022/09/14 18:37:15 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	reset_dimensions(t_fractol *f)
 
 void	set_dimensions(t_fractol *f, char **argc)
 {
-	f->values.max_iterations = 400;
+	f->values.max_iterations = 100;
 	f->values.min_re = -2.0;
 	f->values.min_im = -2.0;
 	f->values.max_re = 2.0;

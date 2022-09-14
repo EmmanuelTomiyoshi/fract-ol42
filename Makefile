@@ -36,13 +36,17 @@ ${LIBFT}:
 	make -C ${LIBFTDIR}
 
 ${FT_PRINTF}:
-	make -C ${FT_PRINTF}
+	make -C ${LIBPRINTFDIR}
 
 clean:
-	rm -rf ${OBJ}
+			rm -rf ${OBJDIR}
+			cd $(LIBPRINTFDIR) && make clean
+			cd $(LIBFTDIR) && make clean
 
-fclean: clean
-	rm -rf ${NAME}
+fclean:		clean
+			rm -rf ${NAME}
+			rm -rf ${PRINTF}
+			rm -rf ${LIBFT}
 
 re: fclean all
 

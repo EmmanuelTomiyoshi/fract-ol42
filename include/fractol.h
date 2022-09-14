@@ -6,13 +6,13 @@
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 14:41:45 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/14 17:56:06 by etomiyos         ###   ########.fr       */
+/*   Updated: 2022/09/14 18:24:11 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
-
 # define FRACTOL_H
+
 # define WIN_W 800
 # define WIN_H 800
 # define ZOOM_FACTOR 0.066
@@ -27,6 +27,7 @@
 # define STDIN 0
 # define STDOUT 1
 # define STDERR 2
+
 typedef struct s_data
 {
 	void	*img;
@@ -34,7 +35,7 @@ typedef struct s_data
 	int		bits_per_pixel;
 	int		line_length;
 	int		endian;
-}			t_data;
+}				t_data;
 
 typedef struct s_values
 {
@@ -54,8 +55,8 @@ typedef struct s_values
 	double			max_re;
 	double			min_im;
 	double			max_im;
-	double 			old_re;
-	double 			old_im;
+	double			old_re;
+	double			old_im;
 	int				r;
 	int				g;
 	int				b;
@@ -101,6 +102,5 @@ void	check_fractal_set(t_fractol *f);
 void	draw_the_set(t_fractol *f, int color);
 double	ft_atof(const char *str);
 int		ft_is_num(char *nbr);
-
 
 #endif
