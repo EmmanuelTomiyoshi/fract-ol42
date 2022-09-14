@@ -6,7 +6,7 @@
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 14:41:45 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/14 12:31:41 by etomiyos         ###   ########.fr       */
+/*   Updated: 2022/09/14 17:56:06 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,6 @@
 
 # include <mlx.h>
 # include <math.h>
-# include <stdio.h>
-# include <stdlib.h>
-# include <X11/X.h>
-# include <X11/keysym.h>
 # include "libft.h"
 # include "ft_printf.h"
 # include "defines.h"

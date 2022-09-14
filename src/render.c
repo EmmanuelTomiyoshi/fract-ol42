@@ -6,7 +6,7 @@
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 16:52:54 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/13 22:30:39 by etomiyos         ###   ########.fr       */
+/*   Updated: 2022/09/14 17:57:23 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,8 @@ void	check_fractal_set(t_fractol *f)
 
 void	draw_the_set(t_fractol *f, int color)
 {
-	int				x;
-	int				y;
-	unsigned int	k;
+	int	x;
+	int	y;
 
 	mandelbrot_values(f);
 	x = 0;
@@ -41,7 +40,7 @@ void	draw_the_set(t_fractol *f, int color)
 			if (f->values.range == f->values.max_iterations)
 				improved_mlx_pixel_put(&(f->img), x, y, color);
 			else
-			{	
+			{
 				set_colors(f);
 				improved_mlx_pixel_put(&(f->img), x, y, f->values.rgb);
 			}

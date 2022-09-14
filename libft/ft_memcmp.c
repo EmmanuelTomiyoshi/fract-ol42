@@ -5,21 +5,21 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/13 21:28:57 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/13 21:28:57 by etomiyos         ###   ########.fr       */
+/*   Created: 2022/05/02 16:03:24 by etomiyos          #+#    #+#             */
+/*   Updated: 2022/05/02 16:03:24 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_memcmp(const void *str1, const void *str2, size_t n)
+int	ft_memcmp(const void *str1, const void *str2, size_t n)
 {
 	size_t			i;
 	unsigned char	*str1uc;
 	unsigned char	*str2uc;
 
-	str1uc = (unsigned char*) str1;
-	str2uc = (unsigned char*) str2;
+	str1uc = (unsigned char *) str1;
+	str2uc = (unsigned char *) str2;
 	i = 0;
 	while (i < n)
 	{

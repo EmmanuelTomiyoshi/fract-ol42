@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/13 21:28:53 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/13 21:28:53 by etomiyos         ###   ########.fr       */
+/*   Created: 2022/05/02 16:02:58 by etomiyos          #+#    #+#             */
+/*   Updated: 2022/05/02 16:02:58 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memchr(const void *str, int c, size_t n)
+void	*ft_memchr(const void *str, int c, size_t n)
 {
 	size_t			i;
 	unsigned char	*struc;
@@ -20,7 +20,6 @@ void *ft_memchr(const void *str, int c, size_t n)
 
 	struc = (unsigned char *) str;
 	charuc = (unsigned char) c;
-
 	i = 0;
 	while (i < n)
 	{

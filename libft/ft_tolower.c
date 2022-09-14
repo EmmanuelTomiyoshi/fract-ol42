@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/13 21:56:27 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/13 21:56:27 by etomiyos         ###   ########.fr       */
+/*   Created: 2022/05/02 16:29:56 by etomiyos          #+#    #+#             */
+/*   Updated: 2022/05/02 16:29:56 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	ft_tolower(int ch)
 {
 	if (ch >= 65 && ch <= 90)
-		return(ch + 32);
+		return (ch + 32);
 	return (ch);
 }

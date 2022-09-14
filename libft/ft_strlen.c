@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/13 21:56:00 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/09/13 21:56:00 by etomiyos         ###   ########.fr       */
+/*   Created: 2022/05/02 16:21:53 by etomiyos          #+#    #+#             */
+/*   Updated: 2022/05/02 16:21:53 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
